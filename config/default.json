@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://mahad97:mahad97@daohelperdb.0ozqe.mongodb.net/daohelperdb?retryWrites=true&w=majority",
-    "jwtToken": "mysecrettoken"
+    "jwtToken": "mysecrettoken",
+    "githubClientId": "e7deae27d12e09cc37ef",
+    "githubSecret": "ca94d1ac881ee449bd9e1c9ae53a569542964d63"
 }
