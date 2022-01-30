@@ -218,7 +218,7 @@ router.delete('/experience/:experience_id', auth, async (req, res) => {
         const index = profile.experience.findIndex(exp => exp._id === req.params.experience_id);
         profile.experience.splice(index, 1);
 
-        profile.save();
+        await profile.save();
 
         res.json(profile);
     } catch (err) {
